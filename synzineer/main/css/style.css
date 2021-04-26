@@ -1,0 +1,42 @@
+*,html,body
+{
+margin:0;
+padding: 0;
+
+}
+header
+{
+	background-color: deepskyblue;
+	height: 110px;
+	line-height: 110px;
+}
+ul
+{
+	list-style: none;
+	
+}
+ul li
+{
+display: inline-block;
+}
+header nav 
+{
+	float: right;
+}
+.logo img
+{
+margin-left: -40px;
+}
+header nav ul li a
+{
+	padding-right: 30px;
+	color: white;
+	transition-duration: .5s;
+}
+
+header nav ul li a:hover
+{
+	text-decoration:none;
+	color: yellow;
+	
+}

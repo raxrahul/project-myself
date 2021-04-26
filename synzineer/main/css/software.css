@@ -1,0 +1,226 @@
+ body
+    {
+        background-color: ##492e33;
+        animation-duration: 8s;
+        animation-name: body;
+        animation-iteration-count: infinite;
+
+
+    }
+    @keyframes body 
+    {
+        0%{background-color:   #492e33}
+        10%{background-color:  #422f48}
+        20%{background-color:  #302f48}
+        30%{background-color:  #2e4149}
+        40%{background-color:  #2e4939}
+        50%{background-color:  #5b1e41}
+        60%{background-color:  #214458}
+        70%{background-color:  #1f471d}
+        80%{background-color:  #554422}
+        90%{background-color:  #41342c}
+        95%{background-color:  #2e3f3f}
+        100%{background-color: #492e33}
+    } 
+     .row-1
+ {
+    height: 500px;
+    background-image:linear-gradient(rgba(102,51,0,0.4),rgba(83, 202,251,0.4)),url(../photo/software-photo.jpg);
+
+    background-size: cover;
+    background-position: center;
+ }
+
+ .main
+        {
+            height: 400px;
+            width: 500px;
+            background-color: #39fb65;
+            box-shadow: 20px 20px 20px black;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 15%;
+            margin-bottom: 7%;
+            padding-top: 3%;
+            padding-left: 3%;
+            padding-bottom: 15%;
+            display: inline-block;
+            transition-duration: .5s;
+            transition-timing-function: ease-in-out;
+        }
+        .main:hover
+        {
+             transform: scale(1.03);
+            background-color: #39fb65;
+            box-shadow: 50px 50px 50px black;
+        }
+        .animation
+        {
+            height: 250px;
+            width: 600px;
+            margin-top: 150px;
+            background-color: rgba(53,219,219,.8);
+            
+            animation-name: animation;
+            animation-duration: 2s;
+        }
+        .animation-text
+        {
+            font-size: 80px;
+            font-weight: bold;
+            margin-left: 40px;
+            margin-top: 100px;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            animation-name: animation-text;
+            animation-duration: 1.5s;
+            text-shadow:2px 2px 2px yellow;
+        }
+        @keyframes animation-text
+        {
+            from{font-size: 0px;
+
+            }
+            to{
+                font-size: 80px;
+            }
+        }
+        .a-text
+        {
+            font-size: 25px;
+            font-weight: bold;
+            margin-left: 140px;
+            color: yellow;
+            text-shadow: 2px 2px 2px black;
+            animation-name: a-text;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes a-text
+        {
+            from
+            {
+                margin-left: -200px;
+            }
+            to
+            { 
+                 margin-left: 140px;
+            }
+        }
+        .animation-text:hover
+        {
+            text-shadow:5px 5px 5px yellow, 15px 15px 15px white;
+        }
+        @keyframes animation 
+        {
+            from
+            {
+                
+                
+                width: 00px;
+            }
+            to
+            {
+               
+                width: 600px;
+            }
+        }
+        /*  end of banner and jambotron*/
+
+
+
+
+
+
+
+
+        /*  starting of the download section*/
+
+
+
+                /*  FONT*/
+                .font
+                {
+                    font-family: 'Roboto', sans-serif;
+                }
+                .align
+                {
+                    text-align: center;
+                }
+                .row-one
+                {
+                    border-radius: 10px;
+                    border-width: 5px;
+                    border-color: grey;
+                }
+                .div-one
+                {
+                    height: 200px;
+                    background-color: pink;
+                    border-color: red;
+                    border-width: 4px;
+                    padding: 30px;
+
+                }
+                .div-two
+                {
+                    height: 200px;
+                    background-color: pink;
+                    border-color: red;
+                    border-width: 4px;
+                    padding-bottom: 30px;
+
+                }
+                .div-three
+                {
+                    height: 200px;
+                    background-color: #ec8083;
+                    border-color: red;
+                    border-width: 4px;
+
+
+                }
+                .icon-path
+                {
+                    
+                    background-size: cover;
+                    background-position: center;
+                    height: 140px;
+                    width: 140px;
+                
+                }
+                h1
+                {
+                    text-shadow: 1px 1px 2px #32bfc2,2px 2px 4px black;
+                    transition-duration: .5s;
+                    transition-timing-function: ease-in-out;
+                }
+                h1:hover
+                {
+                   text-shadow: 1px 1px 2px yellow,4px 4px 10px black; 
+                }
+                h3
+                {
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 10%;
+                    font-size: 40px;
+                    color: #6f1113;
+                    transition: .7s;
+                    transition-timing-function: ease-in-out;
+                    text-shadow: 2px 2px 1px black;
+
+                }
+                h3:hover
+                {
+                    color: black;
+                    text-decoration: underline;
+
+                }
+                .tag
+                {
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                

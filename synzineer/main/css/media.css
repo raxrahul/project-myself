@@ -1,0 +1,474 @@
+body
+{
+	background-color: #acfdbe;
+	}
+	 .row-1
+ {
+ 	height: 500px;
+ 	background-image: url(../photo/media-photo.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+ .span-1
+ {
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	color: orange;
+ }
+ .orange
+ {
+ 	transition-duration: 1s;
+ 	color:orange;
+
+ }
+ .orange:hover
+ {
+ 	text-shadow: 4px 4px 4px black;
+ }
+
+ /* this is html section*/ 
+ .row-link-html
+{
+	background-color: #02a2bd;
+	height: 100px;
+	margin-bottom: 50px
+}
+.html1
+{
+	background-image: url(../photo/html1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.html1:hover
+{
+	box-shadow: 10px 10px 20px orange;
+	transform: rotate(10deg);
+}
+
+
+
+
+
+
+
+
+.html2
+{
+	background-image: url(../photo/html2.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.html2:hover
+{
+	box-shadow: 10px 10px 20px orange;
+	transform: rotate(-10deg);
+}
+
+
+
+
+
+
+.html3
+{
+	background-image: url(../photo/html3.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.html3:hover
+{
+	box-shadow: 10px 10px 20px orange;
+	transform: rotate(10deg);
+}
+
+
+
+
+
+.html4
+{
+	background-image: url(../photo/html4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.html4:hover
+{
+	box-shadow: 10px 10px 20px orange;
+	transform: rotate(-10deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* this is css section*/
+.row-link-html-2
+{
+	background-color:#50dc8b;
+	height: 100px;
+	margin-bottom: 50px
+}
+ .span-1-css
+ {
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	color: #1f0e7c;
+ }
+ .orange-css
+ {
+ 	transition-duration: 1s;
+ 	color:#1f0e7c;
+ 	animation-name: css-animation;
+
+ }
+ .orange-css:hover
+ {
+ 	text-shadow: 2px 2px 1px yellow,4px 4px 4px black;
+ 	transform:rotate(5deg);
+}
+@keyframes css-animation
+{
+
+}
+.css1
+{
+	background-image: url(../photo/css1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.css1:hover
+{
+	box-shadow: 10px 10px 20px #1f0e7c;
+	transform: rotate(10deg);
+}
+
+
+
+
+
+
+
+
+.css2
+{
+	background-image: url(../photo/html4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.css2:hover
+{
+	box-shadow: 10px 10px 20px #1f0e7c;
+	transform: rotate(-10deg);
+}
+
+
+.css3
+{
+	background-image: url(../photo/html1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.css3:hover
+{
+	box-shadow: 10px 10px 20px #1f0e7c;
+	transform: rotate(10deg);
+}
+
+
+
+
+
+.css4
+{
+	background-image: url(../photo/css4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.css4:hover
+{
+	box-shadow: 10px 10px 20px #1f0e7c;
+	transform: rotate(-10deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* this is javascript section*/
+.row-link-js
+{
+	background-color:#fba86a;
+	height: 100px;
+	margin-bottom: 50px
+}
+ .span-1-js
+ {
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	color: #0a509c;
+ }
+ .orange-js
+ {
+ 	transition-duration: 1s;
+ 	color:#0a509c;
+ 	animation-name: css-animation;
+ 	text-shadow:  2px 2px 1px black;
+
+ }
+ .orange-js:hover
+ {
+ 	text-shadow: 2px 2px 1px yellow,4px 4px 4px black;
+ 	transform: scale(1.03);
+ }
+@keyframes css-animation
+{
+
+}
+.js1
+{
+	background-image: url(../photo/js1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.js1:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+.js2
+{
+	background-image: url(../photo/html2.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.js2:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+
+
+
+
+.js3
+{
+	background-image: url(../photo/html4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.js3:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+
+
+
+.js4
+{
+	background-image: url(../photo/js4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.js4:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+
+
+/* this is php section*/
+.row-link-php
+{
+	background-color:#fcb127;
+	height: 100px;
+	margin-bottom: 50px
+}
+ .span-1-js
+ {
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	color: #0a509c;
+ }
+ .orange-js
+ {
+ 	transition-duration: 1s;
+ 	color:#0a509c;
+ 	animation-name: css-animation;
+ 	text-shadow:  2px 2px 1px black;
+
+ }
+ .orange-js:hover
+ {
+ 	text-shadow: 2px 2px 1px yellow,4px 4px 4px black;
+ 	transform: scale(1.03);
+ }
+@keyframes css-animation
+{
+
+}
+.php1
+{
+	background-image: url(../photo/php1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.php1:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+.php2
+{
+	background-image: url(../photo/html4.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.php2:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+
+
+
+
+.php3
+{
+	background-image: url(../photo/php3.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.php3:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+
+
+
+
+
+.php4
+{
+	background-image: url(../photo/html1.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 8px black;
+	transition-duration: 0.5s;
+}
+.php4:hover
+{
+	box-shadow: 10px 10px 20px #0a509c;
+	transform: scale(1.08);
+}
+.footer
+{
+	padding-top: 30px;
+}
+.footer-1
+{
+ height: 70px;
+ background-color: black;
+}

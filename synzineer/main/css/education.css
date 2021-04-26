@@ -1,0 +1,97 @@
+body,.d
+{
+background-color: #61ee4d;
+padding: 0;
+margin:50px;
+animation-name: main;
+animation-delay: 2s;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+
+}
+@keyframes main 
+    {
+        0%{background-color: #61ee4d}
+        20%{background-color:#35dbdb }
+        40%{background-color: #faf772}
+        60%{background-color:#35ffc2 }
+        80%{background-color: #e6d993}
+        100%{background-color:#61ee4d }
+    }
+.brand-name
+{
+	height: auto;
+	width: auto;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	font-family: arial;
+	animation-name: brand-animation;
+	transition-duration: 1s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.brand-name:hover
+{
+	transform: scale(1.05);
+}
+@keyframes brand-animation
+{
+	from{color: #6b0e76;}
+	to{color: #ee0b0b;
+	   text-shadow:1px 1px 1px yellow, 2px 2px 2px deepskyblue,10px 10px 10px black;
+	  }
+}
+.tag-line
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+/* End of desining brand name and tag line        */
+
+
+
+/* starting the download section        */
+
+.thumb
+{
+	height:70px;
+	width: 70px;
+	border-radius: 5px;
+	margin-top: 7px;
+	margin-left: -6px;
+	background-image: url(../photo/os.png);
+	background-position: center;
+	background-size: cover;
+	transition-duration: 1s;
+	
+}
+.thumb:hover
+{
+	transform: scale(1.10);
+}
+
+/* download link section  */
+	
+.download-link
+{
+	background-color: deepskyblue;
+}
+.strong
+{
+	align-self: center;
+	text-align: center;
+	color: #0c1694;
+	font-size: 30px;
+	margin-left: 27%;
+	transition-duration: 1s;
+
+}
+.strong:hover
+{
+	text-decoration: underline;
+	color: #090e1c;
+
+}

@@ -1,0 +1,71 @@
+body{
+	background-color: s;
+}
+.rcontainer-f
+{background-color:#81c644;
+	padding: 50px 50px 50px 50px;
+	margin-top: 50px;
+}
+.rcontainer
+{
+	padding: 40px;
+}
+.adiv1
+{
+	height: 350px;
+	width: 250px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	background-image: url(../photo/rahul.jpg);
+	background-position: center;
+	background-size: cover;
+	transition-duration: .5s;
+	
+}
+.adiv1:hover
+{
+transform: scale(1.08);
+box-shadow:3px 3px 1px orange, 50px 50px 
+50px black;
+border-top-right-radius: 70px;
+border-bottom-left-radius: 70px;
+border-top-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.adiv2
+{
+	background-color: #66a231;
+	transition: .5s ease;
+}
+.adiv2:hover
+{
+	transform: scale(1.06);
+	box-shadow: 10px 10px 30px black;
+}
+.strong-rahul
+{
+	transition-duration: .4s;
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+.strong-rahul:hover
+{
+	transform: scale(1.05);
+
+}
+.para-1
+{
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.add-map{
+	background-color: #f0ba4a;
+	
+	padding: 60px 70px;
+	width: 450px;
+	margin-top: -75px;
+	transition-duration: .4s;
+	}
+	

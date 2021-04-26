@@ -1,0 +1,30 @@
+body
+{
+	background-color: #fb753c;
+}
+.d:hover
+{
+	background-color: #1ad814;
+	transform: scale(1.03);
+}
+.d
+{
+	height: auto;
+	width: auto;
+	padding: 20px 20px 20px 20px; 
+	transition-duration: .5s;
+}
+body
+{
+	background-color: background-color: #3cffc5;
+}
+.map-intro
+{
+	background-color: #00ccb8;
+	height: 410px;
+	width: 400px;
+	padding: 50px;
+	margin-top: -80px;
+	padding-bottom: 90px;
+	margin-bottom: 90px;
+}
