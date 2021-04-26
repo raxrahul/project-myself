@@ -1,0 +1,25 @@
+This website program has a lot of CDN Links,
+which is required internet connection ,
+If you want that your website work properly so you must have a internet connection
+
+Method to to connect Internet:-
+
+
+1. By using Modem 
+2. By using Wi-Fi
+3. By using USB tethering  of your smartphone
+4. Lan connection
+5. Bluetooth tethering
+
+-------server----------
+xampp server needed for php and other fuction working properly.
+install the xampp server and import the synzineer.sql database
+ file.
+
+
+
+
+--------start project--------
+    Index.html file------
+Run/ double click on it 
+  
